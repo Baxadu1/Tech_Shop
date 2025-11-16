@@ -1,7 +1,8 @@
 package payment.adapter;
 
-import external.ExternalPayPalAPI;
 import payment.external.ExternalPayPalAPI;
+import payment.external.ExternalPayPalAPI;
+import payment.strategy.PaymentStrategy;
 import payment.strategy.PaymentStrategy;
 
 public class PayPalAdapter implements PaymentStrategy {
